@@ -7,7 +7,7 @@ const Hero = () =>{
     }
     return(
         <div className="h-[calc(100vh-8rem)] max-w-7xl mx-auto flex justify-center font-sans">
-            <div className="h-120 w-full  mt-20 flex justify-center items-center flex-col text-white bg-green-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-none bg-opacity-0 shadow-sm shadow-green-500/50">
+            <div className="h-120 w-full  mt-20 flex justify-center items-center flex-col text-white bg-green-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-none bg-opacity-0 ">
                 <div className="text-white">
                     <h1 className=" text-6xl font-bold text-shadow-2xs text-shadow-sky-300">WELCOME TO URL-SHORTENER</h1>
                 </div>

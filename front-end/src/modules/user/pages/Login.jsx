@@ -5,7 +5,10 @@ export const Login = () => {
 
     const {doSubmit,register,handleSubmit,errors}= useLogin();
     return(
-        <div className="h-screen max-h-7xl mx-auto flex justify-evenly items-center  bg-[url('../../../../../public/login.jpg')] bg-cover bg-center"  >
+        <div className="h-screen max-h-7xl mx-auto flex justify-evenly items-center bg-cover bg-center"
+        style={{
+                backgroundImage: `url(${import.meta.env.BASE_URL}login.jpg)`,
+            }}  >
             <div className=" flex justify-center items-center bg-green-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 ">
                 <form onSubmit={handleSubmit(doSubmit)}>
                     

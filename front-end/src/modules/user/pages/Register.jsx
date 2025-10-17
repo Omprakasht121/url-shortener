@@ -7,7 +7,7 @@ export const Register = () => {
         <div className="h-screen max-h-7xl mx-auto flex justify-center items-center flex-col bg-[url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80')] bg-cover bg-center">
             <div className="flex justify-center items-center bg-green-10 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0 shadow-sm shadow-blue-500/100 ">
             <form onSubmit={handleSubmit(doSubmit)}>
-                <h1 className="text-center text-2xl font-bold mt-4">REGISTRATION FORM</h1>
+                <h1 className="text-center text-2xl font-bold mt-4">Create Account</h1>
                 <div className="flex flex-col gap-6 p-8 text-lg">
                     <div>
                         <label  className="font-medium"
