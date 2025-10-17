@@ -1,0 +1,10 @@
+@import "tailwindcss";
+body {
+   /* A dark fallback color */
+  /* background-image: url('/background.gif'); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  
+}
