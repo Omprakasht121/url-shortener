@@ -9,7 +9,7 @@ export const useLogin = () => {
     const{register,handleSubmit,formState:{errors}}= useForm({
         resolver: zodResolver(loginSchema),
         defaultValues:{
-            email:"tt@gmail.com",
+            email:"ghar@gmail.com",
             password:"12345678"
         }
     });
