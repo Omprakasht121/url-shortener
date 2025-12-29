@@ -9,8 +9,8 @@ export const useLogin = () => {
     const{register,handleSubmit,formState:{errors}}= useForm({
         resolver: zodResolver(loginSchema),
         defaultValues:{
-            email:"ghar@gmail.com",
-            password:"12345678"
+            email:"",
+            password:""
         }
     });
     const doSubmit = async(formData) => {
